@@ -12,10 +12,10 @@ td {
 
 
 
-.X{
-    background-color: #FF8362;
+.player_one{
+    background-color: purple;
 }
 
-.O{
-    background-color: #BB7365;
+.player_two{
+    background-color: yellow;
 }
