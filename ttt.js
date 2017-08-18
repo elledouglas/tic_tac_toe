@@ -2,6 +2,15 @@ document.addEventListener('DOMContentLoaded', function (){
 
 var square1 = document.querySelector('.one')
 var square2 = document.querySelector('.two')
+var square3 = document.querySelector('.three')
+var square4 = document.querySelector('.four')
+var square5 = document.querySelector('.five')
+var square6 = document.querySelector('.six')
+var square7 = document.querySelector('.seven')
+var square8 = document.querySelector('.eight')
+var square9 = document.querySelector('.nine')
+
+
 
 
 var turn = 'X';
@@ -22,31 +31,31 @@ var square2 = document.querySelector('.two').style.backgroundColor = "blue"
   });
 
   square3.addEventListener('click', function(){
-  var square3 = document.querySelector('.two').style.backgroundColor = "blue"
+  var square3 = document.querySelector('.three').style.backgroundColor = "blue"
   });
 
   square4.addEventListener('click', function(){
-var square4 = document.querySelector('.two').style.backgroundColor = "blue"
+var square4 = document.querySelector('.four').style.backgroundColor = "blue"
   });
 
   square5.addEventListener('click', function(){
-var square5 = document.querySelector('.two').style.backgroundColor = "blue"
+var square5 = document.querySelector('.five').style.backgroundColor = "blue"
   });
 
   square6.addEventListener('click', function(){
-var square6 = document.querySelector('.two').style.backgroundColor = "blue"
+var square6 = document.querySelector('.six').style.backgroundColor = "blue"
   });
 
   square7.addEventListener('click', function(){
-var square7 = document.querySelector('.two').style.backgroundColor = "blue"
+var square7 = document.querySelector('.seven').style.backgroundColor = "blue"
   });
 
   square8.addEventListener('click', function(){
-var square8 = document.querySelector('.two').style.backgroundColor = "blue"
+var square8 = document.querySelector('.eight').style.backgroundColor = "blue"
   });
 
   square9.addEventListener('click', function(){
-  var square9 = document.querySelector('.two').style.backgroundColor = "blue"
+  var square9 = document.querySelector('.nine').style.backgroundColor = "blue"
   });
 
 
