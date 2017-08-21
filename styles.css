@@ -12,10 +12,10 @@ td {
 
 
 
-.player_one{
-    background-color: purple;
+.o{
+    background-color: blue;
 }
 
-.player_two{
-    background-color: yellow;
+.x{
+    background-color: pink;
 }

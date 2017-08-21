@@ -11,9 +11,10 @@ var square8 = document.querySelector('.eight')
 var square9 = document.querySelector('.nine')
 
 
-  var click = 0;
-var player_one = document.querySelector('.player_one');
-var player_two = document.querySelector('.player_two')
+  var clickCount = 0;
+
+  var player_one = document.querySelector('.player_1')
+  var player_two = document.querySelector('.player_2')
 //
 // var turn = 'X';
 // var score = {
@@ -21,44 +22,63 @@ var player_two = document.querySelector('.player_two')
 //     'O': 0
 // };
 
-var clickEvent = function
+// player 1 starts
+var clickEvent = function(event){
+
+  if (this.innerHTML === ''){
+    clickClount++
+    var img = document.createElement('img');
+    if (clickEvent % 2 === 1)
+    {
+    img.src = 'x-png-25.png';
+    this.classList.add(player_one)
+    }
+    else
+    {
+      img.src = '0.png';
+      this.classList.add(player_two);
+    }
+  this.appendChild(img);
+
+  }
+}
 
   square1.addEventListener('click', function(){
 var square1 = document.querySelector('.one');
-if ( this === player_one
-  style.backgroundColor = "blue";
+// if ( this === player_one
+//   style.backgroundColor = "blue";
   });
 
-  square2.addEventListener('click', function(click){
-var square2 = document.querySelector('.two').style.backgroundColor = "blue"
+  square2.addEventListener('click', clickEvent){
+var square2 = document.querySelector('.two')
   });
 
-  square3.addEventListener('click', function(click){
-  var square3 = document.querySelector('.three').style.backgroundColor = "blue"
+  square3.addEventListener('click', clickEvent){
+  var square3 = document.querySelector('.three')
   });
 
-  square4.addEventListener('click', function(click){
-var square4 = document.querySelector('.four').style.backgroundColor = "blue"
+  square4.addEventListener('click', clickEvent) {
+var square4 = document.querySelector('.four')
   });
 
-  square5.addEventListener('click', function(click){
-var square5 = document.querySelector('.five').style.backgroundColor = "blue"
+  square5.addEventListener('click', clickEvent){
+var square5 = document.querySelector('.five')
   });
 
-  square6.addEventListener('click', function(click){
-var square6 = document.querySelector('.six').style.backgroundColor = "blue"
+  square6.addEventListener('click', clickEvent){
+var square6 = document.querySelector('.six')
   });
 
-  square7.addEventListener('click', function(click){
-var square7 = document.querySelector('.seven').style.backgroundColor = "blue"
+  square7.addEventListener('click', clickEvent){
+var square7 = document.querySelector('.seven')
   });
 
-  square8.addEventListener('click', function(click){
-var square8 = document.querySelector('.eight').style.backgroundColor = "blue"
+  square8.addEventListener('click', clickEvent){
+var square8 = document.querySelector('.eight')
   });
 
-  square9.addEventListener('click', function(click){
-  var square9 = document.querySelector('.nine').style.backgroundColor = "blue"
+  square9.addEventListener('click', clickEvent){
+  var square9 = document.querySelector('.nine')
   });
 
 })
