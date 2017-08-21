@@ -24,7 +24,7 @@ var taskList = document.querySelector('#tasks-list');
 // the event created by the Object e = eventObject
 taskList.addEventListener('click', function(e){
   // NOTE: This didnt work when clicking directly on anchor
-if( e.targer.classList.contains('.task')){
+if( e.target.classList.contains('.task')){
   e.target.classList.toggle('is-complete');
 }
 
