@@ -42,9 +42,103 @@ var clickEvent = function(event){
 
   }
 }
+if (square1.classList.contains('player1')
+  && square2.classList.contains('player1')
+  && square3.classList.contains('player1')) {
+   winner1.style.display = 'block';
 
-  square1.addEventListener('click', function(){
-var square1 = document.querySelector('.one');
+ } else if (square4.classList.contains('player1')
+    && square5.classList.contains('player1')
+    && square6.classList.contains('player1')) {
+      winner1.style.display = 'block';
+
+ } else if (square7.classList.contains('player1')
+ && square8.classList.contains('player1')
+ && square9.classList.contains('player1')) {
+    winner1.style.display = 'block';
+
+
+  } else if (square1.classList.contains('player1')
+  && square4.classList.contains('player1')
+  && square7.classList.contains('player1')) {
+     winner1.style.display = 'block';
+
+   } else if (square2.classList.contains('player1')
+   && square5.classList.contains('player1')
+   && square8.classList.contains('player1')) {
+      winner1.style.display = 'block';
+
+    } else if (square3.classList.contains('player1')
+    && square6.classList.contains('player1')
+    && square9.classList.contains('player1')) {
+       winner1.style.display = 'block';
+
+     } else if (square3.classList.contains('player1')
+     && square5.classList.contains('player1')
+     && square7.classList.contains('player1')) {
+        winner1.style.display = 'block';
+
+      } else if (square9.classList.contains('player1')
+      && square1.classList.contains('player1')
+      && square5.classList.contains('player1')) {
+         winner1.style.display = 'block';
+
+
+// player 2
+if (square1.classList.contains('player1')
+  && square2.classList.contains('player1')
+  && square3.classList.contains('player1')) {
+   winner2.style.display = 'block';
+
+ } else if (square4.classList.contains('player1')
+    && square5.classList.contains('player1')
+    && square6.classList.contains('player1')) {
+      winner2.style.display = 'block';
+
+ } else if (square7.classList.contains('player1')
+ && square8.classList.contains('player1')
+ && square9.classList.contains('player1')) {
+    winner2.style.display = 'block';
+
+
+  } else if (square1.classList.contains('player1')
+  && square4.classList.contains('player1')
+  && square7.classList.contains('player1')) {
+     winner2.style.display = 'block';
+
+   } else if (square2.classList.contains('player1')
+   && square5.classList.contains('player1')
+   && square8.classList.contains('player1')) {
+      winner2.style.display = 'block';
+
+    } else if (square3.classList.contains('player1')
+    && square6.classList.contains('player1')
+    && square9.classList.contains('player1')) {
+       winner2.style.display = 'block';
+
+     } else if (square3.classList.contains('player1')
+     && square5.classList.contains('player1')
+     && square7.classList.contains('player1')) {
+        winner2.style.display = 'block';
+
+      } else if (square9.classList.contains('player1')
+      && square1.classList.contains('player1')
+      && square5.classList.contains('player1')) {
+         winner2.style.display = 'block';
+
+
+
+
+
+
+
+
+
+
+
+
+    square1.addEventListener('click', function(){
+      var square1 = document.querySelector('.one');
 // if ( this === player_one
 //   style.backgroundColor = "blue";
   });
